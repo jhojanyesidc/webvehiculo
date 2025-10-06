@@ -1,0 +1,23 @@
+# Ignorar archivos y carpetas generados por IDEs, Tomcat y compilación
+.idea/
+nbproject/
+dist/
+*.iml
+*.class
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+apache-tomcat-9.0.83/
+lib/
+test/
+
+# Ignorar archivos de sistema
+*.bak
+*.swp
+
+# Ignorar archivos de despliegue
+web/assets/
+web/META-INF/
+web/WEB-INF/
+
